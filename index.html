@@ -1,0 +1,44 @@
+
+
+
+
+
+
+<h1>不動産の取引報酬の限度額</h1>
+
+<h2>宅地建物取引業者の受け取る報酬（仲介手数料）※空き家の場合は除く</h2>
+
+<a href=https://www.mlit.go.jp/totikensangyo/const/1_6_bt_000249.html>国交省 報酬について</a>
+<br>
+<a href=https://www.mlit.go.jp/common/001307055.pdf>建設省告示大1522号</a>
+
+<p>売買代金:<input type="text">円※売買の場合入力<br>
+賃借料（一か月）：<input type="text">円※賃貸借の場合入力</p>
+
+
+<p><button type="button" onclick="exportExcel()">計算</button></p>
+
+
+<h3>売買・交換の媒介の場合</h3>
+<h4>200万円以下の金額</h4>
+<input type="number"> x <input type="number" value="5.5">=<input type="number">
+<h4>200万円を超え400万円以下の金額</h4>
+<input type="number"> x <input type="number" value="4.4">=<input type="number">
+<h4>400万円を超える金額</h4>
+<input type="number"> x <input type="number" value="3.3">=<input type="number">
+<h4>合計</h4>
+<p><input type="number">x<input type="number">=<input type="number"></p>
+
+<h3>売買・交換の代理の場合</h3>
+<p><input type="number">x<input type="number">=<input type="number"></p>
+
+
+
+
+<h3>賃貸借の媒介・代理の場合</h3>
+<p>
+    貸主と借主の双方から合わせて賃借料の一か月分＋消費税以内
+    （貸主と借主の各々から一か月分＋消費税の仲介手数料を受け取れるわけではない）
+</p>
+賃借料の一か月分　　　　　　　消費税　　　　　　　　合計
+<p><input type="number">+<input type="number">=<input type="number"></p>
